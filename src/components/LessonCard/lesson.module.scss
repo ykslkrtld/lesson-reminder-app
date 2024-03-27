@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #3a3452, #25a8c6);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0);
+  }
+  
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .card img {
+    width: 120px;
+    //   height: 150px;
+  }
+
+  .text{
+    margin-left: 1rem;
+    color: white;
+  }
+  
+  .title {
+    color: orange;
+    text-align: center;
+    padding: 1rem;
+  }
+  span {
+    color: orange;
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+ 
+  .btns {
+  //   border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    button {
+      width: 150px;
+      height: 2.5rem;
+      font-weight: 500;
+      font-size: 1.1rem;
+      color: rgb(255, 255, 255);
+    }
+  }
+  
